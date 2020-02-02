@@ -2,6 +2,10 @@
 **BLL** (business logic layer): Include API (Web API) and GIS Service
 
 **DAL** (data access layer): Include Entities and Repository
+```
+Note:
+All data is stored in, in-memory collections : DAL -> Opeqe.Sample.DAL.Repository -> GenericRepository.cs -> list
+```
 
 **Common** (common projects): Include Log and Models
 
