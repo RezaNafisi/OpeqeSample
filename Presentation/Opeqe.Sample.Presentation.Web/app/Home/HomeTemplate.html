@@ -1,0 +1,73 @@
+﻿<div id="main" ng-show="!working">
+    <h2 style="text-align:center">Calculate distance</h2>
+    <hr />
+    <div class="row">
+        <div class="col left">
+            Origin Latitude
+        </div>
+        <div class="col right">
+            <input type="number" ng-model="model.OriginLatitude" required/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col left">
+            Origin Longitude
+        </div>
+        <div class="col right">
+            <input type="number" ng-model="model.OriginLongitude" required/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col left">
+            Destination Latitude
+        </div>
+        <div class="col right">
+            <input type="number" ng-model="model.DestinationLatitude" required/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col left">
+            Destination Longitude
+        </div>
+        <div class="col right">
+            <input type="number" ng-model="model.DestinationLongitude" required/>
+        </div>
+    </div>
+    <hr />
+    <div class="row" style="text-align:center">
+        <button ng-click="GetDistance(model)" ng-disabled="working">
+            <span ng-show="getting">...</span>
+            <span ng-show="!getting">Get Distance</span>
+        </button>
+        <div ng-show="Distance">
+            Distance: {{Distance}}
+        </div>
+    </div>
+    <hr />
+    <h2  style="text-align:center">History</h2>
+    <table>
+        <tr>
+            <th>Row</th>
+            <th>Origin Latitude</th>
+            <th>Origin Longitude</th>
+            <th>Destination Latitude</th>
+            <th>Destination Longitude</th>
+            <th>Distance</th>
+            <th>Date Time</th>
+        </tr>
+        <tr ng-repeat="item in History">
+            <td>{{$index+1}}</td>
+            <td>{{item.Distance.OriginLongitude}}</td>
+            <td>{{item.Distance.OriginLatitude}}</td>
+            <td>{{item.Distance.DestinationLatitude}}</td>
+            <td>{{item.Distance.DestinationLongitude}}</td>
+            <td>{{item.Distance.CalculatedDistance}}</td>
+            <td>{{item.DateTime.toLocaleString()}}</td>
+        </tr>
+    </table>
+
+</div>
+<div style="padding:10%;text-align:center" ng-show="working">
+    <p>Loading ...</p>
+</div>
+<span style="position:absolute;left:10px;top:10px;color:blue;cursor:pointer" ng-click="logOut()">Logout</span>

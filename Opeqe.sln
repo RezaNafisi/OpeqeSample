@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.960
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{CB02A451-E068-42BC-9014-7373440F32E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{D3910AE1-1BC9-464C-9F6B-1AE82979DDED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{2C66F040-1515-45A3-9D2A-3364FC901215}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opeqe.Sample.BLL.API", "BLL\Opeqe.Sample.BLL.API\Opeqe.Sample.BLL.API.csproj", "{0AD0516D-7FB5-488D-A6CE-4046238D4BF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opeqe.Sample.DAL.Repository", "DAL\Opeqe.Sample.DAL.Repository\Opeqe.Sample.DAL.Repository.csproj", "{046A5CA3-6354-45A4-A12D-C7F19607E183}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opeqe.Sample.DAL.Entities", "DAL\Opeqe.Sample.DAL.Entities\Opeqe.Sample.DAL.Entities.csproj", "{9B9AE41C-5CB6-43CE-ABEB-7150002C2CDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opeqe.Sample.Presentation.Web", "Presentation\Opeqe.Sample.Presentation.Web\Opeqe.Sample.Presentation.Web.csproj", "{29B9B852-776F-4F2C-8C5C-23932433232C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{567C5196-9D35-42A6-9546-C0D5D1DFEF99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opeqe.Sample.Common.Models", "Common\Opeqe.Sample.Common.Models\Opeqe.Sample.Common.Models.csproj", "{21BB9E7D-9384-49CB-BF67-8A53444B98DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opeqe.Sample.Common.Log", "Common\Opeqe.Sample.Common.Log\Opeqe.Sample.Common.Log.csproj", "{49DB7DBF-58CD-4F19-9A7A-3D9F849F2506}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{90853A44-C467-4D6F-9367-90436944F3CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opeqe.Sample.BLL.Services.GIS", "BLL\Services\Opeqe.Sample.BLL.Services.GIS\Opeqe.Sample.BLL.Services.GIS.csproj", "{2635D72C-ED45-42F5-B153-6BD0FACE715F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AD0516D-7FB5-488D-A6CE-4046238D4BF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AD0516D-7FB5-488D-A6CE-4046238D4BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AD0516D-7FB5-488D-A6CE-4046238D4BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AD0516D-7FB5-488D-A6CE-4046238D4BF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{046A5CA3-6354-45A4-A12D-C7F19607E183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{046A5CA3-6354-45A4-A12D-C7F19607E183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{046A5CA3-6354-45A4-A12D-C7F19607E183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{046A5CA3-6354-45A4-A12D-C7F19607E183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B9AE41C-5CB6-43CE-ABEB-7150002C2CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B9AE41C-5CB6-43CE-ABEB-7150002C2CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B9AE41C-5CB6-43CE-ABEB-7150002C2CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B9AE41C-5CB6-43CE-ABEB-7150002C2CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29B9B852-776F-4F2C-8C5C-23932433232C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29B9B852-776F-4F2C-8C5C-23932433232C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29B9B852-776F-4F2C-8C5C-23932433232C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29B9B852-776F-4F2C-8C5C-23932433232C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21BB9E7D-9384-49CB-BF67-8A53444B98DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21BB9E7D-9384-49CB-BF67-8A53444B98DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21BB9E7D-9384-49CB-BF67-8A53444B98DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21BB9E7D-9384-49CB-BF67-8A53444B98DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49DB7DBF-58CD-4F19-9A7A-3D9F849F2506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49DB7DBF-58CD-4F19-9A7A-3D9F849F2506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49DB7DBF-58CD-4F19-9A7A-3D9F849F2506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49DB7DBF-58CD-4F19-9A7A-3D9F849F2506}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2635D72C-ED45-42F5-B153-6BD0FACE715F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2635D72C-ED45-42F5-B153-6BD0FACE715F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2635D72C-ED45-42F5-B153-6BD0FACE715F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2635D72C-ED45-42F5-B153-6BD0FACE715F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0AD0516D-7FB5-488D-A6CE-4046238D4BF1} = {CB02A451-E068-42BC-9014-7373440F32E8}
+		{046A5CA3-6354-45A4-A12D-C7F19607E183} = {D3910AE1-1BC9-464C-9F6B-1AE82979DDED}
+		{9B9AE41C-5CB6-43CE-ABEB-7150002C2CDB} = {D3910AE1-1BC9-464C-9F6B-1AE82979DDED}
+		{29B9B852-776F-4F2C-8C5C-23932433232C} = {2C66F040-1515-45A3-9D2A-3364FC901215}
+		{21BB9E7D-9384-49CB-BF67-8A53444B98DD} = {567C5196-9D35-42A6-9546-C0D5D1DFEF99}
+		{49DB7DBF-58CD-4F19-9A7A-3D9F849F2506} = {567C5196-9D35-42A6-9546-C0D5D1DFEF99}
+		{90853A44-C467-4D6F-9367-90436944F3CD} = {CB02A451-E068-42BC-9014-7373440F32E8}
+		{2635D72C-ED45-42F5-B153-6BD0FACE715F} = {90853A44-C467-4D6F-9367-90436944F3CD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CC04A85-FCD4-4BFA-B0A9-EFC8CBA0068B}
+	EndGlobalSection
+EndGlobal

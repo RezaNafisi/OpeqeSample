@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Opeqe.Sample.Common.Log\Opeqe.Sample.Common.Log.csproj" />
+    <ProjectReference Include="..\..\Common\Opeqe.Sample.Common.Models\Opeqe.Sample.Common.Models.csproj" />
+    <ProjectReference Include="..\Opeqe.Sample.DAL.Entities\Opeqe.Sample.DAL.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
