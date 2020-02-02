@@ -17,6 +17,8 @@
 1. Run GIS Service
 2. Run/Host API
 3. Run/Host Web project
+4. Register Users
+5. Login and use
 
 ## Use postman
 **Login:** {apiUrl}/token
@@ -37,9 +39,17 @@ var settings = {
   }
 };
 ```
+**Register:**
+
+Type: POST
+
+Body: {"Email":{email},"Name":{name},"Password":{pass},"ConfirmPassword":{confirm pass}}
+
+Content-Type: application/json; charset=utf-8
+
 **GetDistance**(Calculate distance and save to databse): 
 
-Type:POST
+Type: POST
 
 URL: {apiUrl}/api/GIS/GetDistance
 
@@ -51,7 +61,7 @@ Request Body: {"OriginLatitude":{val},"OriginLongitude":{val},"DestinationLatitu
 
 **GetHistory**: 
 
-Type:POST
+Type: GET
 
 URL: {apiUrl}/api/GIS/GetHistory
 
