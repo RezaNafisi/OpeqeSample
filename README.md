@@ -12,3 +12,8 @@
 **Api Service Url:** BLL-> Opeqe.Sample.BLL.API -> Web.config -> appSettings -> ServiceUrl value
 
 **Web project API Url:** Presentation -> Opeqe.Sample.Presentation.Web -> app -> app.js -> baseUrl (line 33)
+
+## Run
+1. Run GIS Service
+2. Run/Host API
+3. Run/Host Web project
